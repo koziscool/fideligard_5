@@ -1,5 +1,5 @@
 
-fido.controller('StocksCtrl', ['$scope', function($scope){
+fido.controller('StocksCtrl', ['$scope', '$stateParams', 'PortfolioService', function($scope, $stateParams, PortfolioService){
 
   console.log('here');
 }]);
